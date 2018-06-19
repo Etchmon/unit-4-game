@@ -1,65 +1,61 @@
 <!DOCTYPE html>
 <html lang ="en-us">
-    <head>
+<head>
         <title> Crystal Game</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
         <link rel="stylesheet" stlye:"text/css" href="assets/css/style.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="assets/javascript/game.js"></script>
-    </head>
-    <body>
-        <div class = "container">
+</head>
+<body>
+    <div class = "container">
         <h1 class = "header"> The Crystal Game</h1>
-        </div>
+     </div>
 
-        <div class = "container">
+    <div class = "container">
            
-            <p class = "readme">You will be given a random number at the beginning of the game.</p>
+        <p class = "readme">You will be given a random number at the beginning of the game.</p>
 
-            <p class = "readme">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+         <p class = "readme">There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
 
-            <p class = "readme">You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
+        <p class = "readme">You win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.</p>
 
-            <p class = "readme">The value of each crystal is hidden from you until you click it</p>
+        <p class = "readme">The value of each crystal is hidden from you until you click it</p>
 
-            <p class = "readme"> Each time the game starts, the value of the crystals will change.</p>
+        <p class = "readme"> Each time the game starts, the value of the crystals will change.</p>
 
+     </div>
+
+
+    <div class = "container" id ="stats">
+         <div>
+             <h1 class= "thistag"> random number</h1>
         </div>
+         <div>
+             <h2 class = "wins">Wins:</h2>
+             <h2 class = "losses">Losses:</h2>
+         </div>
 
+    </div>
 
-        <div class = "container" id ="stats">
-            <div>
-                <h1 class= "thistag"> random number</h1>
-            </div>
-            <div>
-                <h2 class = "wins">Wins:</h2>
-                <h2 class = "losses">Losses:</h2>
-            </div>
-
-        </div>
-
-            <div class = "container">
-                <div class = "row">
-                    <div class = " col-md-3" id = "ruby">
-                        <button type="button" class="ruby" value:"">
-                        </button>
-                    </div>
-
-                    <div class = " col-md-3" id = "emerald" value:"">
-                        <button type="button" class="green">
-                        </button>
-                    </div>
-
-                    <div class = " col-md-3" id = "topaz">
-                        <button type="button" class="yellow" value:"">
-                        </button>
-                    </div>
-
-                    <div class = " col-md-3" id = "saphire" value:"">
-                        <button type="button" class= "blue">
-                        </button>
-                    </div>
+     <div class = "container">
+         <div class = "row">
+              <div class = " col-md-3" id = "ruby">
+                    <button type="button" class="ruby" value:""></button>
                 </div>
+
+                 <div class = " col-md-3" id = "emerald" value:"">
+                        <button type="button" class="green"></button>
+                 </div>
+
+                <div class = " col-md-3" id = "topaz">
+                    <button type="button" class="yellow" value:""></button>
+                 </div>
+
+                 <div class = " col-md-3" id = "saphire" value:"">
+                        <button type="button" class= "blue"></button>
+                 </div>
+              </div>
 
         </div>
 
@@ -79,7 +75,7 @@
             </div>
 
 
-        </div>
+    
 
-    </body>
+</body>
 </html>
