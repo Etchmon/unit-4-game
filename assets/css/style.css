@@ -1,0 +1,43 @@
+#stats {
+    height: 200px;
+}
+
+.green {
+    background:url(http://2.imimg.com/data2/KI/LH/MY-2995702/emerald-panna-250x250.jpg);
+    height:150px;
+    width:150px;
+    background-size: 150px 150px
+}
+
+.blue{
+    height:150px;
+    width:150px;
+    background:url(https://static.planetminecraft.com/files/resource_media/screenshot/1147/Sapphire_Link_op_800x707_864590.jpg);
+    background-size: 150px 150px;
+}
+.yellow{
+    height:150px;
+    width:150px;
+    background:url(https://4.imimg.com/data4/GC/XT/MY-6778726/lemon-topaz-500x500.jpg);
+    background-size: 150px 150px;
+}
+.ruby{
+    height:150px;
+    width:150px;
+    background:url(https://3.imimg.com/data3/RQ/JT/MY-3324731/ruby-stone-500x500.jpg);
+    background-size: 150px 150px;
+}
+.readme{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header{
+    color: gold;
+    position: relative;
+    margin: auto 10%;
+    height:200px;
+    font-size:100px;
+}
+
+.user{
+    height:300px;
+}
