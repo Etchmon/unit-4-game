@@ -2,20 +2,20 @@
     height: 200px;
 }
 
-.green {
+.emerald {
     background:url(http://2.imimg.com/data2/KI/LH/MY-2995702/emerald-panna-250x250.jpg);
     height:150px;
     width:150px;
     background-size: 150px 150px
 }
 
-.blue{
+.sapphire{
     height:150px;
     width:150px;
     background:url(https://static.planetminecraft.com/files/resource_media/screenshot/1147/Sapphire_Link_op_800x707_864590.jpg);
     background-size: 150px 150px;
 }
-.yellow{
+.topaz{
     height:150px;
     width:150px;
     background:url(https://4.imimg.com/data4/GC/XT/MY-6778726/lemon-topaz-500x500.jpg);
@@ -41,3 +41,8 @@
 .user{
     height:300px;
 }
+
+.number {
+    font-size: 100px;
+}
+    
